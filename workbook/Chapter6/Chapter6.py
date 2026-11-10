@@ -46,9 +46,16 @@
 # CHECK THESE CASES : "py" matches Python Tips. Empty search matches every title.
 # HINT AFTER A TRY: Normalize both strings with lower().
 
-titles = ["hello", "radio", "cars", "Python Tips"]
-print(titles)
+# titles = ["hello", "radio", "cars", "Python Tips"]
+# print(titles("py"))
 
+# if 5 > 2:
+#  print("Five is not greater than two!")
+# print("Five is greater than two!")
+
+
+# print("Hello World!", end=" damn ")
+# print("I will print on the same line.")
 
 
 
@@ -58,5 +65,18 @@ print(titles)
 # HINT AFTER A TRY : Use counts.get(author, 0) + 1.
 
 
-authors = ["Ada", "Lin", "Ada"]
+# authors = ["Ada", "Lin", "Ada"]
 # posts = 
+
+
+
+
+
+
+class myObj:
+  name = "John"
+
+y = myObj()
+
+x = isinstance(y, myObj)
+print(y)
